@@ -1,0 +1,13 @@
+{
+  "name": "SandhalClinic",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.10.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts" : {
+    "start" : "node index.js"
+  }
+}
