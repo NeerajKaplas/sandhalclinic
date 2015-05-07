@@ -66,7 +66,6 @@
 					</h4>
 					<div class="pane accordion_content 1">
 						<p>
-							
 							<i class="fa fa-envelope"></i> Type "DSC_[Your Name]_[Sex]_[Age]_[Place]", and we will call you back.
 						</p>
 					</div>
@@ -94,8 +93,8 @@
 			<h3 class="disease_title text-center">
 				{{disease.title}}
 			</h3>
-			<div class="text-center">
-				<img class="disease_image" alt="" ng-src="{{disease.img_src}}"/>
+			<div class="text-center home-disease  ">
+				<div class="{{disease.class}}"></div>
 			</div>
 			<p class="disease_text" ng-bind-html="disease.description">
 			</p>
